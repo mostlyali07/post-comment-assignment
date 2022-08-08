@@ -9,6 +9,9 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Create a post app like facebook</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,13 +20,15 @@
             <div class="col-md-3">
             </div>
             <div class="col-md-6 text-center">
+                <h2>Enter Text And Submit</h2>
                 <form>
-                    <textarea type="text" class="text_area" id="comment-box" cols="70" rows="6" placeholder="Enter comment"></textarea>
+                    <textarea type="text" class="text_area" rows="6" id="comment-box"
+                        placeholder="Enter comment"></textarea>
                     <br>
-                    <button id="post">Post</button>
-                    <div id="unordered"></div>
+                    <button id="post" class="bTn">Submit</button>
+                    <button id="" class="bTn">Clear</button>
+                    <div id="unordered" class="comment-area"></div>
                 </form>
-                <div id="comment_area"></div>
             </div>
             <div class="col-md-3">
             </div>
